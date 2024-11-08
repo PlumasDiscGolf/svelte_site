@@ -1,0 +1,1 @@
+<h1>Sveltekit Starter with Pocketbase, Tailwind, and DaisyUI</h1>
