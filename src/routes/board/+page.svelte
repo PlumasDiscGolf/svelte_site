@@ -12,7 +12,7 @@
 <div class="mt-8 w-full">
 	<h2 class="text-center text-2xl">Current Members</h2>
 
-	<div class="grid md:grid-cols-2 w-full gap-4 p-8">
+	<div class="grid md:grid-cols-2 w-full gap-2 p-8">
 		{#each activeMembers as member}
 			<div
 				class="card card-side mx-24 border-4 border-slate-800 bg-primary p-6 text-secondary-content shadow-xl"
