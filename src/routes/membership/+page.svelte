@@ -12,7 +12,7 @@
 
 <div class="my-4 w-full text-center">
 	<h1 class="text-4xl">Membership</h1>
-	<p class="my-4 font-semibold text-secondary">
+	<p class="my-4 font-semibold text-secondary max-w-[72ch] mx-auto">
 		We are now processing online memberships through Zeffy, our non-profit financial partner. They
 		do not take any fees from our transactions, allowing us to use your full payment to help achieve our
 		goals.
@@ -20,7 +20,7 @@
 </div>
 
 <div class="grid md:grid-cols-2">
-	<div class="mx-auto max-w-[68ch] my-auto">
+	<div class="m-auto px-4 max-w-[72ch]">
 		<p class="my-4 font-semibold">
 			Becoming a Club Member is one of the best ways to support Plumas Disc Golf. Memberships are
 			one of our primary fundraising sources each year. Thank you for your support!
