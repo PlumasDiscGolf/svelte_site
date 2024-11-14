@@ -15,10 +15,10 @@
 	<h1 class="text-4xl">Past Events</h1>
 </div>
 
-<div class="grid w-full gap-4 p-8">
+<div class="grid md:grid-cols-2 w-full gap-4">
 	{#each events as event}
 		<div
-			class="card card-side mx-24 border-4 border-slate-800 bg-primary p-6 text-secondary-content shadow-xl"
+			class="card card-side border-4 border-slate-800 bg-primary p-6 text-secondary-content shadow-xl"
 		>
 			<figure class="min-w-fit">
 				<img src={event.imageURL} alt="" class="w-48 rounded-3xl" />
