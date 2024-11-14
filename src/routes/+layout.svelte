@@ -1,13 +1,13 @@
 <script>
 	import '../app.pcss';
-	import logoImg from '$lib/img/logo-100.png';
+	import logoImg from '$lib/img/header_logo.png';
 	import logoButton from '$lib/img/logo-150.png';
 
 	export let data;
 </script>
 
 <div class="min-h-screen">
-	<div class="navbar bg-neutral text-neutral-content">
+	<div class="navbar bg-neutral text-neutral-content uppercase">
 		<div class="navbar-start">
 			<!-- Menu for small screens -->
 			<div class="dropdown">
@@ -29,7 +29,7 @@
 				</div>
 				<ul
 					tabindex="0"
-					class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 font-semibold text-white shadow"
+					class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-neutral p-2 font-semibold text-white shadow"
 				>
 					<li><a href="/membership">Membership</a></li>
 					<li><a href="/events">Events</a></li>
@@ -50,9 +50,9 @@
 			<!-- Logo -->
 			<a href="/" class="btn btn-ghost hidden lg:block"
 				><img
-					src={logoButton}
+					src={logoImg}
 					alt="Plumas Disc Golf's Logo"
-					class="max-h-full hover:scale-105"
+					class="max-h-full scale-125 hover:scale-105"
 				/></a
 			>
 		</div>
@@ -60,7 +60,7 @@
 			<div>
 				<a href="/" class="btn btn-ghost lg:hidden"
 					><img
-						src={logoButton}
+						src={logoImg}
 						alt="Plumas Disc Golf's Logo"
 						class="max-h-full hover:scale-105"
 					/></a
