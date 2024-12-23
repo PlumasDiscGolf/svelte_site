@@ -1,7 +1,6 @@
 <script>
 	import '../app.pcss';
 	import logoImg from '$lib/img/header_logo.png';
-	import logoButton from '$lib/img/logo-150.png';
 
 	export let data;
 </script>
